@@ -27,7 +27,7 @@ section h3 {
     background-color: white;
     padding: 10px;
     font-weight: bold;
-    color: rgb(39, 144, 34);
+    /*color: rgb(39, 144, 34);*/
     background-color: black;
     margin: auto;
     transition: .3s;

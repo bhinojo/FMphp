@@ -34,7 +34,7 @@
                 <a href="amortizaciones.php">Sistemas de Amortizacion - Calculo de Cuotas</a>
                 <ul id="SubMenuDesplegable">
                     <li>
-                        <a  href="sistemafrances.php">Sistema Frances</a>
+                        <a  href="sistemaFrances.php">Sistema Frances</a>
                     </li>
                     <li>
                         <a href="sistemaaleman.php">Sistema Aleman</a>

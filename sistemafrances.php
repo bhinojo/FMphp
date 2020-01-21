@@ -9,6 +9,7 @@
     <title>Sistemas Frances</title>
 
     <link href="styles_FinMath_General.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="styles_FinMath_TablaAmortizaciones.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     <link href="styles_FinMath_Amortizaciones.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
@@ -34,7 +35,7 @@
                 <a href="amortizaciones.php">Sistemas de Amortizacion - Calculo de Cuotas</a>
                 <ul id="SubMenuDesplegable">
                     <li>
-                        <a  href="sistemafrances.php">Sistema Frances</a>
+                        <a  href="sistemaFrances.php">Sistema Frances</a>
                     </li>
                     <li>
                         <a href="sistemaaleman.php">Sistema Aleman</a>
@@ -74,7 +75,7 @@
         </article>
 
         <div id="divTablaParaCalculoDeSistema">
-          <?php 
+          <?php
             include("tablaFrances.php");
            ?>
         </div>

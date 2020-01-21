@@ -4,7 +4,7 @@ body {
 section {
     margin-top: 100px;
 }
-section p {
+section  p {
     background-color: rgb(255, 255, 255);
     font-weight: bold;
     box-shadow: black 0px 6px 10px 0px;
@@ -12,7 +12,7 @@ section p {
     width: 10%;
     transition:transform 0.15s ease-in-out 0.1s;
 }
-section form {
+section  form {
     display: inline-flex;
     border-radius: 10px;
     margin-right: 20px;
@@ -32,7 +32,7 @@ section h3 {
     margin: auto;
     transition: .3s;
 }
-section form input {
+section  form input {
     border: none;
     margin: auto;
     text-align: center;
@@ -46,7 +46,7 @@ section form input {
 section p:hover {
     transform: scale(1.1);
 }
-section h3:hover {
+section  h3:hover {
     color: white;
 }
 #btncalcularsis {

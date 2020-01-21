@@ -67,7 +67,6 @@ nav ul li a:hover{
     transition: 1s;
 }
 #paraHover:hover #mostrar{
-
     opacity: 1;
 }
 #btn :hover {

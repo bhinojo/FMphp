@@ -14,6 +14,6 @@
     <?php
   include("sisf.php");
      ?>
-     </table>
+   </table>
   </body>
 </html>

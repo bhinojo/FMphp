@@ -62,9 +62,9 @@
                 <form name="sistemaFrances" method="post">
 
                     <h3>Capital</h3>
-                    <input type="number" id="capitalSistemaFrances" name="capitalSistemaFrances" value="">
+                    <input type="floatval" id="capitalSistemaFrances" name="capitalSistemaFrances" value="">
                     <h3>Tasa Nominal</h3>
-                    <input type="number" id="tasaNominalSistemaFrances" name="tasaNominalSistemaFrances" value="">
+                    <input type="floatval" id="tasaEfectivaSistemaFrances" name="tasaEfectivaSistemaFrances" value="">
                     <h3>Frecuencia de Pago (en dias)</h3>
                     <input type="number" id="plazoSitemaFrances" name="plazoSitemaFrances" value="">
                     <h3>Plazo Todal de Pago (en dias)</h3>

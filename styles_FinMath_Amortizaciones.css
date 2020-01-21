@@ -57,8 +57,7 @@ section h3:hover {
     border: none;
     float: right;
     margin: 15px 20px;
-    transition: .5s;
 }
-#btncalcularsis :hover {
-    color:black;
+#btncalcularsis :hover{
+  color: black;
 }

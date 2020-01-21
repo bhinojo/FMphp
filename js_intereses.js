@@ -66,7 +66,7 @@ function calcularInteres() {
         document.getElementById('resultadoCompuesto').value = resultadoCompuesto.toFixed(6);
 
     } else{
-        alert("Complete los datos");
+        alert("Carge los datos");
     }
 
 }

@@ -28,19 +28,19 @@
 
         <ul id="menuNavegacion">
             <li>
-                <a href="index.html">Interes</a>
+                <a href="index.php">Interes</a>
             </li>
             <li id="paraHover">
-                <a href="amortizaciones.html">Sistemas de Amortizacion - Calculo de Cuotas</a>
+                <a href="amortizaciones.php">Sistemas de Amortizacion - Calculo de Cuotas</a>
                 <ul id="mostrar">
                     <li>
-                        <a  href="sistemafrances.html">Sistema Frances</a>
+                        <a  href="sistemafrances.php">Sistema Frances</a>
                     </li>
                     <li>
-                        <a href="sistemaaleman.html">Sistema Aleman</a>
+                        <a href="sistemaaleman.php">Sistema Aleman</a>
                     </li>
                     <li>
-                        <a href="sistemaamericano.html">Sistema Americano</a>
+                        <a href="sistemaamericano.php">Sistema Americano</a>
                     </li>
                 </ul>
             </li>

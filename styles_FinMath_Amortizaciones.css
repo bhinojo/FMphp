@@ -43,22 +43,8 @@ section form input {
     background-color: black;
     box-shadow: black 0px 6px 10px 0px;
 }
-#btnCalcular {
-    background-color: rgb(39, 144, 34);
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    box-shadow: black 5px 5px 15px;
-    border: none;
-    float: right;
-    margin: 0px 40px;
-    transition: .5s;
-}
 section p:hover {
     transform: scale(1.1);
-}
-#btnCalcular:hover {
-    color: black;
 }
 section h3:hover {
     color: white;

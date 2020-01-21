@@ -49,7 +49,6 @@
 
     </nav>
 
-
     <section id="sectionAmortizaciones">
 
         <article id="frances">
@@ -61,12 +60,14 @@
                 <form name="sistemaFrances" method="post">
 
                     <h3>Capital</h3>
-                    <input type="number" id="capitalSistemaFrances" value="">
+                    <input type="number" id="capitalSistemaFrances" name="capitalSistemaFrances" value="">
                     <h3>Tasa Nominal</h3>
-                    <input type="number" id="tasaNominalSistemaFrances" value="">
+                    <input type="number" id="tasaNominalSistemaFrances" name="tasaNominalSistemaFrances" value="">
                     <h3>Frecuencia de Pago (en dias)</h3>
-                    <input type="number" id="plazosiStemaFrances" value="">
-                    <button id="btncalcularsis" type="submit" name="ok" >Calcular</button>
+                    <input type="number" id="plazoSitemaFrances" name="plazoSitemaFrances" value="">
+                    <h3>Plazo Todal de Pago (en dias)</h3>
+                    <input type="number" id="plazoTotalSitemaFrances" name="plazoTotalSitemaFrances" value="">
+                    <button id="btncalcularsis" type="submit" name="btncalcularsis" >Calcular</button>
 
                 </form>
 
@@ -74,16 +75,15 @@
 
         </article>
 
-        <div >
-          <?php
-            include("tablaFrances.php");
-           ?>
-           <p id="divTablaParaCalculoDeSistema">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-
     </section>
 
-
+    <div id="divTablaParaCalculoDeSistema">
+      <table>
+      <?php
+        include("tablaFrances.php");
+       ?>
+       </table>
+   </div>
 
 </body>
 

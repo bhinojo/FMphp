@@ -30,9 +30,9 @@
             <li>
                 <a href="index.php">Interes</a>
             </li>
-            <li id="paraHover">
+            <li id="subMenuAmortizaciones">
                 <a href="amortizaciones.php">Sistemas de Amortizacion - Calculo de Cuotas</a>
-                <ul id="mostrar">
+                <ul id="SubMenuDesplegable">
                     <li>
                         <a  href="sistemafrances.php">Sistema Frances</a>
                     </li>
@@ -47,6 +47,7 @@
         </ul>
 
     </nav>
+
 
     <section id="sectionAmortizaciones">
 
@@ -71,6 +72,12 @@
             </div>
 
         </article>
+
+        <div id="divTablaParaCalculoDeSistema">
+          <?php 
+            include("tablaFrances.php");
+           ?>
+        </div>
 
     </section>
 

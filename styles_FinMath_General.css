@@ -49,26 +49,23 @@ nav ul li a:hover{
     color: rgb(39, 144, 34);
     box-shadow: inset  black 0px 0px 15px 0px;
 }
-#mostrar li a{
+#SubMenuDesplegable li a{
     display: block;
 }
-#paraHover ul{
+#subMenuAmortizaciones ul{
     margin-top: 10px;
     display: block;
     transition: 1s;
     position: absolute;
     opacity: 0;
 }
-#paraHover ul li a{
+#subMenuAmortizaciones ul li a{
     padding: 3px 129px;
     background-color: lightgrey;
 }
-#paraHover{
+#subMenuAmortizaciones{
     transition: 1s;
 }
-#paraHover:hover #mostrar{
+#subMenuAmortizaciones:hover #SubMenuDesplegable{
     opacity: 1;
-}
-#btn :hover {
-    color:black;
 }

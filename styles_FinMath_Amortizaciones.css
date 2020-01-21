@@ -27,7 +27,7 @@ section h3 {
     background-color: white;
     padding: 10px;
     font-weight: bold;
-    /*color: rgb(39, 144, 34);*/
+    color: rgb(39, 144, 34);
     background-color: black;
     margin: auto;
     transition: .3s;
@@ -48,4 +48,17 @@ section p:hover {
 }
 section h3:hover {
     color: white;
+}
+#btncalcularsis {
+    background-color: rgb(39, 144, 34);
+    color: white;
+    font-weight: bold;
+    box-shadow: black 5px 5px 15px;
+    border: none;
+    float: right;
+    margin: 15px 20px;
+    transition: .5s;
+}
+#btncalcularsis :hover {
+    color:black;
 }

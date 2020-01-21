@@ -20,7 +20,7 @@ h1 {
     color: rgb(39, 144, 34);
     background-color: rgb(40,40,40);
     box-shadow: black 0px 10px 10px;
-    text-shadow: white 0px 10px 10px;
+    text-shadow: black 0px 10px 10px;
 }
 nav{
     margin:0px 20px
@@ -72,15 +72,4 @@ nav ul li a:hover{
 }
 #btn :hover {
     color:black;
-}
-#btn {
-    background-color: rgb(39, 144, 34);
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    box-shadow: black 5px 5px 15px;
-    border: none;
-    float: right;
-    margin: 0px 40px;
-    transition: .5s;
 }

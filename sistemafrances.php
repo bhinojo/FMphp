@@ -8,9 +8,9 @@
 
     <title>Sistemas Frances</title>
 
-    <link href="styles_FinMath_General.css" rel="stylesheet" />
-    <link href="styles_FinMath_Amortizaciones.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="styles_FinMath_General.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="styles_FinMath_Amortizaciones.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <script src="js_amortizaciones.js"></script>
 
@@ -64,7 +64,7 @@
                     <input type="number" id="tasaNominalSistemaFrances" value="">
                     <h3>Frecuencia de Pago (en dias)</h3>
                     <input type="number" id="plazosiStemaFrances" value="">
-                    <button id="btn" type="submit" name="ok" >Calcular</button>
+                    <button id="btncalcularsis" type="submit" name="ok" >Calcular</button>
 
                 </form>
 

@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <script src="js_amortizaciones.js"></script>
+    <script src="tablaFrances.js"></script>
+
 
 </head>
 
@@ -67,7 +69,7 @@
                     <input type="number" id="plazoSitemaFrances" name="plazoSitemaFrances" value="">
                     <h3>Plazo Todal de Pago (en dias)</h3>
                     <input type="number" id="plazoTotalSitemaFrances" name="plazoTotalSitemaFrances" value="">
-                    <button id="btncalcularsis" type="submit" name="btncalcularsis" >Calcular</button>
+                    <button id="btncalcularsis" type="submit" name="btncalcularsis" >CALCULAR</button>
 
                 </form>
 
@@ -78,11 +80,11 @@
     </section>
 
     <div id="divTablaParaCalculoDeSistema">
-      <table>
+
       <?php
         include("tablaFrances.php");
        ?>
-       </table>
+
    </div>
 
 </body>

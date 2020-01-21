@@ -56,16 +56,15 @@
 
             <div class="formulario">
 
-                <form name="sistemaFrances">
+                <form name="sistemaFrances" method="post">
 
                     <h3>Capital</h3>
                     <input type="number" id="capitalSistemaFrances" value="">
-                    <h3>Tasa</h3>
-                    <input type="number" id="tasaSistemaFrances" value="">
-                    <h3>Plazo</h3>
+                    <h3>Tasa Nominal</h3>
+                    <input type="number" id="tasaNominalSistemaFrances" value="">
+                    <h3>Frecuencia de Pago (en dias)</h3>
                     <input type="number" id="plazosiStemaFrances" value="">
-                    <h3>Capital Final</h3>
-                    <input type="text" id="resultadoSistemaFrances" name="resultadoSistemaFrances" value="" />
+                    <button type="submit" name="ok" id="ok">OK</button>
 
                 </form>
 

@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
+    <form class="" method="post">
     <input type="number" id="num" name="num"/>
     <input type="floatval" id="num2" name="num2"/>
     <button type="submit" name="ok">OK</button>

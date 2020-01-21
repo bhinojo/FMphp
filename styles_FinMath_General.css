@@ -55,7 +55,7 @@ nav ul li a:hover{
 #paraHover ul{
     margin-top: 10px;
     display: block;
-    transition: .5s;
+    transition: 1s;
     position: absolute;
     opacity: 0;
 }
@@ -66,6 +66,7 @@ nav ul li a:hover{
 #paraHover{
     transition: 1s;
 }
-#paraHover:hover > ul{
+#paraHover:hover #mostrar{
+
     opacity: 1;
 }
